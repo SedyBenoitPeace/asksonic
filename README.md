@@ -29,7 +29,7 @@ AskSonic can easily run in a free [Heroku dyno](#running-on-heroku), or run [alo
 It's recommended to use a non-admin user as we will be storing the login credentials in AskSonic's configuration. Consider how your Subsonic server handles play counts, starred tracks, playlists, etc. to decide if you want to create a new user account or use your existing one. You may want to configure transcoding for this user/player as Alexa has [limited file-type support](https://developer.amazon.com/en-US/docs/alexa/custom-skills/audioplayer-interface-reference.html#audio-stream-requirements).
 
 ### Running on Heroku
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/srichter/asksonic)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SedyBenoitPeace/asksonic)
 1. Create a Heroku account and login
 2. Click the button above
 3. Choose a name for your app. You may want to add random characters to the name to obfuscate your app's URL
